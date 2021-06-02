@@ -10,10 +10,12 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Name"
-        android:hint="Enter name"/>
+        android:layout_marginTop="15sp"
+        android:hint="Enter name"
+        android:textStyle="italic"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="search"
         android:layout_marginTop="15sp"
-        android:onClick="search"/>
+        android:onClickz="search"/>
 
 
 </LinearLayout>
